@@ -28,13 +28,17 @@
         "type": "ReferenceSequenceTrack",
         "trackId": "kitaake-ReferenceSequenceTrack",
         "adapter": {
-          "type": "IndexedFastaAdapter",
+          "type": "BgzipFastaAdapter",
           "fastaLocation": {
-            "uri": "../irgsp1/kitaake_genome/cleaned_kitaake_assembly.fna",
+            "uri": "../irgsp1/kitaake_genome/cleaned_kitaake_assembly.fna.gz",
             "locationType": "UriLocation"
           },
           "faiLocation": {
-            "uri": "../irgsp1/kitaake_genome/cleaned_kitaake_assembly.fna.fai",
+            "uri": "../irgsp1/kitaake_genome/cleaned_kitaake_assembly.fna.gz.fai",
+            "locationType": "UriLocation"
+          },
+          "gziLocation": {
+            "uri": "../irgsp1/kitaake_genome/cleaned_kitaake_assembly.fna.gz.gzi",
             "locationType": "UriLocation"
           }
         }
