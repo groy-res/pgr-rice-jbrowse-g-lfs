@@ -57,12 +57,12 @@
         "type": "LinearGenomeView",
         "init": {
           "loc": "5:14,782,881..14,785,542",
-          "assemblyNames": ["nippon", "kitaake"],
+          "assembly": "nippon",
           "trackSelectorType": "hierarchical",
           "trackSelectorCollapsed": false,
           "tracks": [
             
-            "nippon-ReferenceSequenceTrack",
+            "Genes",
             "egg_merged_coverage",
             "fertilized_ovary_merged_coverage",
             "seedling_merged_coverage",
@@ -77,17 +77,17 @@
   "tracks": [
     {
       "type": "FeatureTrack",
-      "trackId": "transcripts.sorted.gff",
-      "name": "transcripts.sorted.gff",
+      "trackId": "Genes",
+      "name": "Genes",
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/IRGSP-1.0_representative/transcripts_renamed.sorted.gff.gz",
+          "uri": "irgsp1/IRGSP-1.0_representative/all.gff3.sorted.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "https://corsproxy.io/?url=https://github.com/umgdevelops/ou-jbrowse-genome-data/raw/refs/heads/main/irgsp1/IRGSP-1.0_representative/transcripts_renamed.sorted.gff.gz.tbi",
+            "uri": "irgsp1/IRGSP-1.0_representative/all.gff3.sorted.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
